@@ -1,0 +1,396 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    height: 15vh;
+    width:100vw;
+   
+   
+    display: flex;
+    background-color: rgb(2, 2, 64);
+}
+
+
+.container{
+height: 85vh;
+width: 100vw;
+
+display:flex;
+background-color:rgb(0, 0, 37) ;
+color: white;
+
+}
+
+
+
+    
+    .navbar{
+        width: 77vw;
+        display: flex;
+       
+        align-items: center;
+        flex-direction: row-reverse;
+       margin: 4px;
+        background-color: rgb(2, 2, 64);
+       
+    }
+    .navbar ul{
+        font-weight: 800;
+        font-size: larger;
+        text-decoration: none;
+        display: flex;
+        margin-left: 45px;
+ 
+        
+    
+
+    }
+    .navbar a{
+        text-decoration: none;
+        
+        color: white;
+    }
+    .signature {
+        background-color: rgb(2, 2, 64);
+        width: 20vw;
+        height: 16vh;
+        overflow: hidden; /* Add this to hide any parts of the image that overflow the container */
+    }
+    
+    .signature img {
+        width: 100%; /* Set the width of the image to 100% of the container */
+        height: 100%; /* Set the height of the image to 100% of the container */
+        object-fit: cover; /* Ensure the image covers the entire container */
+        filter: invert(100%); /* Change the color of the image to white */
+    }
+    
+
+    .container-left{
+        height: 85vh;
+        width: 45vw;
+       
+        display: flex;
+        position: relative;
+        }
+    .Intro{
+      
+        height: 50px;
+        width: 420px;
+        font-size:35px;
+        line-height: 60px;
+        font-weight: 900;
+        position: absolute;
+        top: 45px;
+        left: 45px;
+    }
+    .More-Info{
+        position: absolute;
+        height:40px ;
+        width: 470px;
+        top:100px;
+        left:50px;
+        line-height: 35px;
+    }
+    .container-right{
+        height: 85vh;
+        width: 55vw;
+      
+        position: relative;
+        }
+    .container-right img{
+        position: absolute;
+        height: 400px;
+        width: 400px;
+        left: 120px;
+        top: 60px;
+    }
+    .contact{
+        border-radius: 20px;
+        padding: 2px;
+        height: 38px;
+        width: 100px;
+        background-color: #c98bcc;
+    }
+    .Resume{
+        border-radius: 20px;
+        padding: 2px;
+        height: 38px;
+        width: 150px;
+        background-color: #c98bcc;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+
+    .contact:hover{
+        border-radius: 20px;
+        padding: 2px;
+        height: 39px;
+        width: 101px;
+        background-color: #c98bcc;
+        box-shadow: 2px 2px 4px white;
+
+    }
+
+    .Resume:hover{
+        border-radius: 20px;
+        padding: 2px;
+        height: 39px;
+        width: 151px;
+        background-color: #c98bcc;
+        box-shadow: 2px 2px 4px white;
+
+    }
+
+    .margin{
+        height: 10px;
+        width: 100vw;
+        background-color: rgb(53, 53, 73);
+    }
+
+    .container2{
+       
+
+        height: 100vh;
+width: 100vw;
+
+display:flex;
+background-color:rgb(0, 0, 37) ;
+color: white;
+
+
+    }
+
+    .container-left img{
+        position: absolute;
+        height: 440px;
+        width: 450px;
+        left: 120px;
+        top: 60px;
+    }
+    .mern img{
+        margin-top: 90px;
+        height: 100px;
+        width: 400px;
+       
+    }
+    .More-Info{
+        margin-top: 120px;
+    }
+    
+        .Intro1{
+      
+            height: 50px;
+            width: 420px;
+            font-size:35px;
+            line-height: 60px;
+            font-weight: 900;
+            position: absolute;
+            top: 45px;
+            left: 45px;
+        }
+        .More-Info1{
+            position: absolute;
+            height:40px ;
+            width: 470px;
+            top:330px;
+            left:50px;
+            line-height: 20px;
+        }
+
+        
+        .container3{
+            height: 100vh;
+width: 100vw;
+
+display:flex;
+background-color:rgb(0, 0, 37) ;
+color: white;
+
+        }
+
+     
+        .skill {
+            height: 20px;
+            width: calc(100% - 50px); /* Adjusted width to fit the container width with gaps */
+            border: 2px solid white;
+            border-radius: 30px;
+            margin: 35px; /* Adjusted margin for spacing */
+        }
+        
+        .container3-left {
+            height: 100vh;
+            width: 45vw;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            justify-content: center; /* Center aligning items */
+            align-items: center; /* Center aligning items */
+            padding: 10px; /* Added padding for spacing */
+        }
+        
+        .Front-End{
+            height: 20px;
+            width: 85%;
+            background-color: aliceblue;
+            border-radius: 30px;
+        }
+
+        .Back-End{
+            height: 20px;
+            width: 55%;
+            background-color: aliceblue;
+            border-radius: 30px;
+        }
+
+        .Programming{
+            height: 20px;
+            width: 75%;
+            background-color: aliceblue;
+            border-radius: 30px;
+        }
+        .container3-left h1{
+            position: absolute;
+           top: 32px;
+           font-size: 40px;
+       
+        }
+        .container3 img{
+            height: 540px;
+            width: 500px;
+        }
+
+        .container4 {
+            height: 100vh;
+            width: 100vw;
+            background-color:rgb(0, 0, 37) ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .Intro4 {
+            height: 0px;
+            font-size: 25px;
+            width: 100vw;
+            
+            font-weight: 900;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px; /* Adjust margin-top as needed */
+        }
+        
+        .Intro4 h1 {
+            margin: 30px;
+            filter: invert(100%);
+        }
+        
+        .box {
+            height: 100vh;
+            width: 50vw;
+            position: relative;
+            margin-top: 10px; /* Adjust margin-top as needed */
+           
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .content{
+            display: flex;
+        }
+        .card {
+            width: 440px;
+            background-color: #c98bcc;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 0px auto;
+        
+       
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          }
+          .card a{
+            text-decoration: none;
+          }
+          .card:hover {
+            width: 442px;
+            background-color: #c98bcc;
+            padding: 5px;
+            box-shadow: 5px 5px 10px white, 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          
+          .card h2 {
+            color: #333;
+            margin-bottom: 10px;
+          }
+          
+          .card p {
+            color: #000000;
+            line-height: 1.5;
+            margin-bottom: 15px;
+          }
+          
+          .card strong {
+            font-weight: bold;
+          }
+          .end{
+            height: 70vh;
+            width: 100vw;
+            border: 1px solid black;
+            display: flex;
+            background-color:rgb(0, 0, 37) ;
+            color: white;
+          }
+          .end-left{
+            height: 70vh;
+            width: 70vw;
+          
+          }
+          .end-left h1{
+            margin-top: 90px;
+            margin-left: 100px;
+          }
+          .end-left h3{
+       margin-top: 10px;
+       margin-left:100px ;
+       font-size: 20px;
+       font-weight: 300;
+          }
+
+          .end-left h4{
+            margin-left: 100px;
+            margin-top: 20px;
+            font-size: 20px;
+          }
+          .end-left p{
+            margin-top: 10px;
+            margin-left: 100px;
+            font-size: 20px;
+          }
+        .social{
+            height: 40px;
+            width: 230px;
+          
+            margin-left: 100px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .social img{
+            height:40px ;
+            width: 40px;
+            border-radius: 50%;
+        }
+        .end-right img{
+            height: 360px;
+            width: 300px;
+            display: flex;
+            margin: auto;
+            border:2px solid black;
+            border-radius: 50%;
+            background-repeat: no-repeat;
+            background-size:auto;
+            margin-left: 30px;
+            margin-top: 30px;
+           
+        }
